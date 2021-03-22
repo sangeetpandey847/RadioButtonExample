@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:text="Radio Button Example"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/html"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="html"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <RadioButton
+        android:id="@+id/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Android"
+
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="vb .net"
+        android:textSize="20sp"
+
+        android:padding="10dp"
+        />
+    <RadioButton
+        android:id="@+id/java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ad. Java"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+
+        android:padding="10dp"
+        />
+    <RadioButton
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Designing"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="210dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:onClick="submitButton"
+        android:text="Submit"
+        android:textColor="@color/black">
+
+    </Button>
+
+
+
+
+
+</LinearLayout>
